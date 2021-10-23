@@ -1,4 +1,6 @@
 logs/
 main.logs
 *.log
+bin/
+
 
