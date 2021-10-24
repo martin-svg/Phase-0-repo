@@ -5,9 +5,8 @@ Projects in Phase-0-repo include:
 >> Build a Python Calculator
 Scope: Build a Calculator using VS Code, Python, and Github. Save the project in a GitHub Repository using Git Terminal commands.
 
->> Terminal Git Command Practice:
-# Git commands to learn and practice include but are not limited too:
-Markup : * Bullet List
+## Terminal Git Command Practice:
+>> Git commands to learn and practice include but are not limited too:
   * git status -s
   * git add . 
   * git add file1.txt
@@ -26,11 +25,11 @@ Markup : * Bullet List
 
 >> New Terminal Command Practice:
 # Terminal commands to learn and test include
-echo test-append >> file1.js
-echo test-2-append > file2.js
-mkdir bin
-echo helloworld > bin/app.bin
-mkdir logs
-echo hello > logs/dev.logs
+  * echo test-append >> file1.js
+  * echo test-2-append > file2.js
+  * mkdir bin
+  * echo helloworld > bin/app.bin
+  * mkdir logs
+  * echo hello > logs/dev.logs
 
 
