@@ -23,7 +23,7 @@
   * git mv main.js file1.js
 
 
-## New Terminal Command Practice: ##
+## New Terminal Command Practice: 
 >> Terminal commands to learn and test include
   * echo test-append >> file1.js
   * echo test-2-append > file2.js
