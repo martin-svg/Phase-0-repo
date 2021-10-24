@@ -3,7 +3,7 @@ This is my "Phase-0" project repository to learn how to use Github and Python.
 Projects in Phase-0-repo include:
 
 >> Build a Python Calculator
-Scope: Build a Calculator using VS Code, Python, and Github. Save the project in a GitHub Repository using Git Terminal commands.
+#### Scope: Build a Calculator using VS Code, Python, and Github. Save the project in a GitHub Repository using Git Terminal commands. ####
 
 ## Terminal Git Command Practice:
 >> Git commands to learn and practice include but are not limited too:
