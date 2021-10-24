@@ -1,5 +1,5 @@
 # Phase-0 Description
-## This is my phase-0 project repository to learn how to use Github and Python. 
+This is my "Phase-0" project repository to learn how to use Github and Python. 
 Projects in Phase-0-repo include:
 
 >> Build a Python Calculator
