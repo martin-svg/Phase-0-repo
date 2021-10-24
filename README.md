@@ -5,7 +5,7 @@
 >> Build a Python Calculator
 #### Scope: Build a Calculator using VS Code, Python, and Github. Save the project in a GitHub Repository using Git Terminal commands. ####
 
-## Terminal Git Command Practice:
+## Terminal Git Command Practice: ##
 >> Git commands to learn and practice include but are not limited too:
   * git status -s
   * git add . 
@@ -23,8 +23,8 @@
   * git mv main.js file1.js
 
 
->> New Terminal Command Practice:
-# Terminal commands to learn and test include
+## New Terminal Command Practice: ##
+>> Terminal commands to learn and test include
   * echo test-append >> file1.js
   * echo test-2-append > file2.js
   * mkdir bin
