@@ -1,13 +1,12 @@
-# Phase-0-repo Description
+# Phase-0 Description
 This is the first phase of for to re-learn how to use Github and Python. 
 Projects in Phase-0-repo include:
 
 >> Build a Python Calculator
 Scope: Build a Calculator using VS Code, Python, and Github. Save the project in a GitHub Repository using Git Terminal commands.
 
-
-#Terminal Git Command Practice:
-Git commands to learn and practice include but are not limited too:
+>> Terminal Git Command Practice:
+# Git commands to learn and practice include but are not limited too:
 git status -s
 git add . 
 git add file1.txt
@@ -24,8 +23,8 @@ git rm file1.js
 git mv main.js file1.js
 
 
-#New Terminal Command Practice:
-Terminal commands to learn and test include
+>> New Terminal Command Practice:
+# Terminal commands to learn and test include
 echo test-append >> file1.js
 echo test-2-append > file2.js
 mkdir bin
