@@ -7,9 +7,35 @@ import tkinter
 
 root = tkinter.Tk()
 root.title("Calculator")
+
+# Global Variable
+expression = ""
+
+
 # Create functions
 def add(value):
-    print(value)
+    global expression
+    expression += value
+    print(expression)
+    label_result.config(text=expression)
+
+
+def clear():
+    global expression
+    expression = ""
+    label_result.config(text=expression)
+
+
+def calculate():
+    global expression
+    result = ""
+    if expression != "":
+        try:
+            result = eval(expression)
+            label_result.config(text=result)
+        except:
+            result = "error"
+    label_result.config(text=result)
 
 
 # Create Gui, think about what kind of buttons to make
@@ -37,6 +63,36 @@ button_5.grid(row=2, column=1)
 
 button_6 = tkinter.Button(root, text="6", command=lambda: add("6"))
 button_6.grid(row=2, column=2)
+
+button_multiply = tkinter.Button(root, text="*", command=lambda: add("*"))
+button_multiply.grid(row=2, column=3)
+
+button_7 = tkinter.Button(root, text="7", command=lambda: add("7"))
+button_7.grid(row=3, column=0)
+
+button_8 = tkinter.Button(root, text="8", command=lambda: add("8"))
+button_8.grid(row=3, column=1)
+
+button_9 = tkinter.Button(root, text="9", command=lambda: add("9"))
+button_9.grid(row=3, column=2)
+
+button_subtract = tkinter.Button(root, text="-", command=lambda: add("-"))
+button_subtract.grid(row=3, column=3)
+
+button_clear = tkinter.Button(root, text="C", command=lambda: clear())
+button_clear.grid(row=4, column=0)
+
+button_zero = tkinter.Button(root, text="0", command=lambda: add("0"))
+button_zero.grid(row=4, column=1)
+
+button_dot = tkinter.Button(root, text=".", command=lambda: add("."))
+button_dot.grid(row=4, column=2)
+
+button_add = tkinter.Button(root, text="+", command=lambda: add("+"))
+button_add.grid(row=4, column=3)
+
+button_equals = tkinter.Button(root, text="=", width=16, command=lambda: calculate())
+button_equals.grid(row=5, column=0, columnspan=4)
 
 # This is how I am closing the main loop of the program.
 # If I don't have this the window will shut automatically.
