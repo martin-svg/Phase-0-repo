@@ -29,6 +29,14 @@ button_3.grid(row=1, column=2)
 button_divide = tkinter.Button(root, text="/", command=lambda: add("/"))
 button_divide.grid(row=1, column=3)
 
+button_4 = tkinter.Button(root, text="4", command=lambda: add("4"))
+button_4.grid(row=2, column=0)
+
+button_5 = tkinter.Button(root, text="5", command=lambda: add("5"))
+button_5.grid(row=2, column=1)
+
+button_6 = tkinter.Button(root, text="6", command=lambda: add("6"))
+button_6.grid(row=2, column=2)
 
 # This is how I am closing the main loop of the program.
 # If I don't have this the window will shut automatically.
