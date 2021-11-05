@@ -76,6 +76,9 @@ button_8.grid(row=3, column=1)
 button_9 = tkinter.Button(root, text="9", command=lambda: add("9"))
 button_9.grid(row=3, column=2)
 
+button_twelve = tkinter.Button(root, text="12", command=lambda: add("12"))
+button_twelve.grid(row=6, column=0)
+
 button_subtract = tkinter.Button(root, text="-", command=lambda: add("-"))
 button_subtract.grid(row=3, column=3)
 
