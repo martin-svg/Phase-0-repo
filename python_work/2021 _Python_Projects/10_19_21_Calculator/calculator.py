@@ -83,7 +83,7 @@ button_clear = tkinter.Button(root, text="C", command=lambda: clear())
 button_clear.grid(row=4, column=0)
 
 button_zero = tkinter.Button(root, text="0", command=lambda: add("0"))
-button_zero.grid(row=4, column=1)
+button_zero.grid(row=5, column=1)
 
 button_dot = tkinter.Button(root, text=".", command=lambda: add("."))
 button_dot.grid(row=4, column=2)
