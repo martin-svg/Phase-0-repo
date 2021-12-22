@@ -8,6 +8,6 @@ echo "Today's date is `date +%D`, the time is `date +%T`"
 uptime
 df -H
 
-echo "`date +%D`, `date +%T`,`uptime`,`df -H`">script_000_log.txt
+echo "`date +%D`, `date +%T`,`uptime`,`df -H`"&>script_000_log.txt
 
 exit 0
