@@ -1,5 +1,8 @@
 # Phase-0 Description
-## This is my "Phase-0" project repository to learn how to use Github, Python, and Bash. Starting from scratch, just sharing what I learn along the way. ##
+## This is my "Phase-0" project repository to learn how to use Github, Python, and Bash. Starting from scratch, just sharing what I learn along the way. 
+I will be using the book link below to learn Bash Scripting:
+https://tldp.org/LDP/abs/html/index.html
+##
 ### Projects in Phase-0-repo include: ###
 
 >> Build a Python Calculator
