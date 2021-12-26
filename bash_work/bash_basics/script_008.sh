@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # Nested if/then Condition Tests
 # Condition test using the if/then construct may be 
@@ -19,6 +20,6 @@ fi
 
 if [ "$x" -gt 0 ] && [ "$x" -lt 5 ]
 then
- echo " The value of \"x\" lies somewhere between 0 and 5."
+ echo "The value of \"x\" lies somewhere between 0 and 5."
 fi
 
