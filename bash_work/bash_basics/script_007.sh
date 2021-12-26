@@ -46,3 +46,38 @@ echo $?
 
 # Example
 # if [ -x "$filename" ]; then
+
+# Else if and elif - elif is a contraction for else if.
+# The effect is to nest an inner if/thn construct
+# within an outer one. 
+
+#Example
+#if [ condition1 ]
+#then
+#  command1
+#  command2
+#  command3
+#elif [ condition2 ]
+			#Same as else if
+#then
+#  command4
+#  command5
+#else
+#  default-command
+#fi
+
+
+# Using the [[...]] test construct, rather than [..] 
+# can prevent many logic errors in scripts, For 
+# example, the &&, ||,< and > operators work withing 
+# [[]] test, despite giving an error withing a []. 
+
+#Example
+#file=/etc/passwd
+
+# if [[ -e $file ]]
+# then
+#  echo "PAssword file exists."
+# fi
+
+
