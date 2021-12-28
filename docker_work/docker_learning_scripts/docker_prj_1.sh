@@ -1,6 +1,6 @@
 #!/bin/bash
 # This is a project to learn containerization,
-# the following website: https://docker-curriculum.com/.
+# the website I am using is from the docker-curriculum.
 
 echo " This tutorial builds and deploys a webapp in
 the cloud. It uses AWS to deploy a static website,
@@ -78,12 +78,4 @@ echo
 echo "We then can run an container from that image by typing \"docker run -it ________ sh\"."
 echo
 
-echo "Each container takes up space, see a list of these containers by using \"docker ps -a\"."
-
-echo "During this tutorial I also learned about Python virtual environments and FLASK"
-echo " https://python.land/virtual-environments/virtualenv "
-echo " https://flask.palletsprojects.com/en/2.0.x/tutorial/layout/ "
-
-echo "Dockerfile - A Dockerfile is a simple text file that contains a list of commands that the Docker client calls while creating an image. It's a simple way to automate the image creation process. "
-echo "The best part is that the commands you write in a Dockerfile are almost identical to their equivalent Linux commands. "
- 
+echo "each container takes up space, see a list of these containers by using \"docker ps -a\"."
