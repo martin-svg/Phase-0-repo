@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # The book I am using to learn scripting can be found in the following URL
 # https://tldp.org/LDP/abs/html/index.html
@@ -127,3 +128,4 @@ echo
 # $? is the exit status of a command, function, or the script itself
 
 # $$ is the PID (Process ID_ of the script itself. 
+
