@@ -9,4 +9,29 @@ uptime
 df -H
 
 
-echo "`date +%D`" > log-prac.txt
+# echo "`date +%D`" > log-prac.txt
+
+
+var-1=First_Name
+
+echo
+
+echo "$var-1"
+
+echo {a...z}
+
+Array[1]=slot-1
+echo ${Array[1]}
+
+echo 
+
+for i in 1 2 3 4 5 
+do echo -n "$i"
+done
+
+echo
+
+b=34
+echo $b
+
+echo 
