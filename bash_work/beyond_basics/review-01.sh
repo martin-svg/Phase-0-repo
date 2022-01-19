@@ -35,3 +35,8 @@ b=34
 echo $b
 
 echo 
+
+var1=56
+echo var1
+
+echo $var1
