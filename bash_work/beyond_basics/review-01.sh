@@ -40,3 +40,7 @@ var1=56
 echo var1
 
 echo $var1
+
+
+a=90
+echo "the value of \"a\" is $a"
