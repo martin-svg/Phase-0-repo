@@ -44,3 +44,8 @@ echo $var1
 
 a=90
 echo "the value of \"a\" is $a"
+
+if [ -z "$unassigned"]
+then
+echo "\$unassigned is NULL"
+fi 
