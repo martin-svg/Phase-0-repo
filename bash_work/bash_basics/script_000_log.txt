@@ -1,9 +1,9 @@
-12/20/21, 01:03:49, 1:03  up 8 days, 10:38, 3 users, load averages: 1.65 1.67 1.67,Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on
-/dev/disk1s5s1   500G    22G   348G     6%  553788 4881899092    0%   /
+02/14/22, 13:20:21,13:20  up 21 days,  8:57, 3 users, load averages: 14.16 44.03 47.27,Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on
+/dev/disk1s5s1   500G    22G   344G     7%  553788 4881899092    0%   /
 devfs            198k   198k     0B   100%     668          0  100%   /dev
-/dev/disk1s4     500G   3.2G   348G     1%       4 4882452876    0%   /System/Volumes/VM
-/dev/disk1s2     500G   361M   348G     1%    1448 4882451432    0%   /System/Volumes/Preboot
-/dev/disk1s6     500G   117M   348G     1%     394 4882452486    0%   /System/Volumes/Update
-/dev/disk1s1     500G   125G   348G    27%  613734 4881839146    0%   /System/Volumes/Data
+/dev/disk1s4     500G   2.1G   344G     1%       3 4882452877    0%   /System/Volumes/VM
+/dev/disk1s2     500G   354M   344G     1%    1448 4882451432    0%   /System/Volumes/Preboot
+/dev/disk1s6     500G   117M   344G     1%     394 4882452486    0%   /System/Volumes/Update
+/dev/disk1s1     500G   130G   344G    28%  616424 4881836456    0%   /System/Volumes/Data
 map auto_home      0B     0B     0B   100%       0          0  100%   /System/Volumes/Data/home
-/dev/disk1s5     500G    22G   348G     6%  553791 4881899089    0%   /System/Volumes/Update/mnt1
+/dev/disk1s5     500G    22G   344G     7%  553788 4881899092    0%   /System/Volumes/Update/mnt1
