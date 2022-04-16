@@ -10,4 +10,4 @@ df -H
 
 echo "`date +%D`, `date +%T`,`uptime`,`df -H`"&>script_000_log.txt
 
-exit 0
+exit -1

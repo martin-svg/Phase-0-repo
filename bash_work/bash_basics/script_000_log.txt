@@ -1,9 +1,8 @@
-02/14/22, 13:20:21,13:20  up 21 days,  8:57, 3 users, load averages: 14.16 44.03 47.27,Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on
-/dev/disk1s5s1   500G    22G   344G     7%  553788 4881899092    0%   /
-devfs            198k   198k     0B   100%     668          0  100%   /dev
-/dev/disk1s4     500G   2.1G   344G     1%       3 4882452877    0%   /System/Volumes/VM
-/dev/disk1s2     500G   354M   344G     1%    1448 4882451432    0%   /System/Volumes/Preboot
-/dev/disk1s6     500G   117M   344G     1%     394 4882452486    0%   /System/Volumes/Update
-/dev/disk1s1     500G   130G   344G    28%  616424 4881836456    0%   /System/Volumes/Data
+04/14/22, 14:28:20,14:28  up 9 days, 12:45, 4 users, load averages: 1.78 2.69 2.90,Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on
+/dev/disk1s5s1   500G    15G   351G     5%  500637 3425273040    0%   /
+devfs            197k   197k     0B   100%     666          0  100%   /dev
+/dev/disk1s4     500G   4.3G   351G     2%       5 3425273040    0%   /System/Volumes/VM
+/dev/disk1s2     500G   396M   351G     1%    1881 3425273040    0%   /System/Volumes/Preboot
+/dev/disk1s6     500G   4.7M   351G     1%      19 3425273040    0%   /System/Volumes/Update
+/dev/disk1s1     500G   128G   351G    27%  608971 3425273040    0%   /System/Volumes/Data
 map auto_home      0B     0B     0B   100%       0          0  100%   /System/Volumes/Data/home
-/dev/disk1s5     500G    22G   344G     7%  553788 4881899092    0%   /System/Volumes/Update/mnt1
